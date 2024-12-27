@@ -1,0 +1,70 @@
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Productos</title>
+            <link rel="stylesheet" href="../css/style.css">
+            <style>
+                .galeria{
+                    display:none;
+                    justify-content: center;
+                }
+                .prompt{
+                    display: none;
+                    position:fixed;
+                    top: 50%;
+                    left:35%;
+                }
+                #botonesfinal{
+                    position:fixed;
+                    left:45%;
+                    bottom:10px;
+                    display:flex;
+                }
+            </style>
+        </head>
+        <body>
+            <h1><fantasy><center>PRODUCTOS</center></fantasy></h1>
+            <br>
+            <center><button id="fyv">frutas y vegetales</button><button id="pyp">panes y pastas</button><button id="lyq">leches y quesos</button><button id="cyp">carnes y pescados</button><button id="ceyp">cereales y pastas</button></center>
+            <div id="galeriafyv" class="galeria"> 
+                <button id="manzana"><img src="../img/manzana.jpg" style="width: 200px; height: 200;"></button>
+                <button id="pera"><img src="../img/pera.jpg" style="width: 200px; height: 200;"></button>
+                <button id="tomate"><img src="../img/tomate.jpg" style="width: 200px; height: 200;"></button>
+                <button id="lechuga"><img src="../img/lechuga.jpg" style="width: 200px; height: 200;"></button>
+            </div>
+            <div id="galeriapyp" class="galeria"> 
+                <button id="pan"><img src="../img/pan.jpg" style="width: 200px; height: 200;"></button>
+                <button id="hogaza"><img src="../img/hogaza.jpg" style="width: 200px; height: 200;"></button>
+                <button id="pastas"><img src="../img/pastas.jpg" style="width: 200px; height: 200;"></button>
+                <button id="pastel"><img src="../img/pastel.jpg" style="width: 200px; height: 200;"></button>
+            </div>
+            <div id="galerialyq" class="galeria"> 
+                <button id="leche"><img src="../img/leche.jpg" style="width: 200px; height: 200;"></button>
+                <button id="lecheavena"><img src="../img/lecheavena.jpg" style="width: 200px; height: 200;"></button>
+                <button id="quesocabra"><img src="../img/quesocabra.jpg" style="width: 200px; height: 200;"></button>
+                <button id="quesooveja"><img src="../img/quesooveja.jpg" style="width: 200px; height: 200;"></button>
+            </div>
+            <div id="galeriacyp" class="galeria"> 
+                <button id="albondigas"><img src="../img/albondigas.jpg" style="width: 200px; height: 200;"></button>
+                <button id="sajonia"><img src="../img/sajonia.jpg" style="width: 200px; height: 200;"></button>
+                <button id="salmon"><img src="../img/salmon.jpg" style="width: 200px; height: 200;"></button>
+                <button id="palitos"><img src="../img/palitos.jpg" style="width: 200px; height: 200;"></button>
+            </div>
+            <div id="galeriaceyp" class="galeria"> 
+                <button id="macarrones"><img src="../img/macarrones.jpg" style="width: 200px; height: 200;"></button>
+                <button id="espaguetis"><img src="../img/espaguetis.jpg" style="width: 200px; height: 200;"></button>
+                <button id="kellog"><img src="../img/kellog.jpg" style="width: 200px; height: 200;"></button>
+                <button id="flakes"><img src="../img/flakes.jpg" style="width: 200px; height: 200;"></button>
+            </div>
+            <div id="promptcantidad" class="prompt">
+                <p>¿Cuántos quieres?</p>
+                <br>
+                <input type="number" id="cantidad" value="1">
+                <button id="confirmar">confirmar</button>
+            </div>
+            <div id="botonesfinal">
+                <button id="guardar">guardar</button><button id="mostrar">mostrar</button><button id="listas">listas</button>
+            </div>
+            <script type="module" src="../js/productos.js"></script>
+        </body>
+    </html>

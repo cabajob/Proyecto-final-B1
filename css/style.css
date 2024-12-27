@@ -1,0 +1,91 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Fondo suave */
+    color: #343a40; /* Texto principal */
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #6c757d; /* Color del encabezado */
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+button {
+    background-color: #0d6efd; /* Azul primario de Bootstrap */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #0056b3; /* Azul más oscuro en hover */
+}
+input[type="text"], input[type="password"], input[type="number"], select {
+    width: 80%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ced4da; /* Bordes suaves */
+    border-radius: 0.3rem;
+    box-sizing: border-box;
+}
+input:focus {
+    border-color: #80bdff;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.galeria {
+    display: none;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin: 1rem;
+}
+.galeria button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+.galeria img {
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+.galeria img:hover {
+    transform: scale(1.05);
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    background-color: #e9ecef; /* Fondo para listas */
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.prompt {
+    background-color: #fff;
+    color: #212529;
+    padding: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.3rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+#botonesfinal {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#usuario, #contras {
+    width: 60%;
+    max-width: 400px;
+    margin: 0.5rem auto;
+}

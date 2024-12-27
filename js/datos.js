@@ -1,0 +1,23 @@
+import producto from "./claseproducto.js";
+export const productosvendemos = [
+    new producto("manzana", "fyv", "../img/manzana.jpg"),
+    new producto("pera", "fyv", "../img/pera.jpg"),
+    new producto("tomate", "fyv", "../img/tomate.jpg"),
+    new producto("lechuga", "fyv", "../img/lechuga.jpg"),
+    new producto("pan", "pyp", "../img/pan.jpg"),
+    new producto("hogaza", "pyp", "../img/hogaza.jpg"),
+    new producto("pastas", "pyp", "../img/pastas.jpg"),
+    new producto("pastel", "pyp", "../img/pastel.jpg"),
+    new producto("leche", "lyq", "../img/leche.jpg"),
+    new producto("lecheavena", "lyq", "../img/lecheavena.jpg"),
+    new producto("quesocabra", "lyq", "../img/quesocabra.jpg"),
+    new producto("quesooveja", "lyq", "../img/quesooveja.jpg"),
+    new producto("albondigas", "cyp", "../img/albondigas.jpg"),
+    new producto("sajonia", "cyp", "../img/sajonia.jpg"),
+    new producto("salmon", "cyp", "../img/salmon.jpg"),
+    new producto("palitos", "cyp", "../img/palitos.jpg"),
+    new producto("macarrones", "ceyp", "../img/macarrones.jpg"),
+    new producto("espaguetis", "ceyp", "../img/espaguetis.jpg"),
+    new producto("kellog", "ceyp", "../img/kellog.jpg"),
+    new producto("flakes", "ceyp", "../img/flakes.jpg"),
+];

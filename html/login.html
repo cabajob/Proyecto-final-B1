@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Página de inicio</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <style>
+            .prompt{
+                display:none;
+                position:fixed;
+                top: 50%;
+                left:50%;
+            }
+        </style>
+    </head>
+    <body>
+        <h1><fantasy><center>LOG IN</center></fantasy></h1>
+        <br><br>
+        <center>USUARIO:</center>
+        <center><input type="text" id="usuario" placeholder="escribe tu usuario aquí"></center>
+        <br><br>
+        <center>CONTRASEÑA:</center>
+        <center><input type="password" id="contras" placeholder="escribe tu contraseña aquí"></center>
+        <br><br>
+        <center><button id="login">ACEPTAR</button><button id="nuevo_usuario">Nuevo usuario</button><button id="datosolvidados">Olvidé los datos</button></center>
+        <div id="promptdatos" class="prompt"><p>introduce tu usuario o correo:</p><br><input type="text" id="olvidado"><button id="confirmar">confirmar</button></div>
+        <script src="../js/login.js"></script>
+    </body>
+</html>
